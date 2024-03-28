@@ -5,8 +5,8 @@
 [//]: # (    <h6 align="center"><a href="">Check it out how easily you can send me a message</a></h6>)
 </h3>
 <p align='center'>
-  <a href='https://github.com/Mirmuxsin/laralog/blob/master/license'><img alt="License" src="https://img.shields.io/github/license/mirmuxsin/laragram?color=%23fefefe&logo=github&logoColor=%23fefefe&style=flat-square"></a>
-  <a href='https://packagist.org/packages/milly/laralog'><img alt="Packagist Version" src="https://img.shields.io/packagist/v/milly/laragram?color=%23fefefe&label=Laragram&logo=packagist&logoColor=%23fefefe&style=flat-square"></a>
+  <a href='https://github.com/Mirmuxsin/laralog/blob/master/license'><img alt="License" src="https://img.shields.io/github/license/mirmuxsin/laralog?color=%23fefefe&logo=github&logoColor=%23fefefe&style=flat-square"></a>
+  <a href='https://packagist.org/packages/milly/laralog'><img alt="Packagist Version" src="https://img.shields.io/packagist/v/milly/laralog?color=%23fefefe&label=Laragram&logo=packagist&logoColor=%23fefefe&style=flat-square"></a>
   <a href='https://www.patreon.com/millykhamroev'><img alt="Packagist Version" src="https://img.shields.io/badge/Buy%20me%20a-coffee-%23fefefe?style=flat-square&logo=patreon&logoColor=%23fefefe"></a>
 </p>
 
