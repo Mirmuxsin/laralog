@@ -31,10 +31,10 @@ TELEGRAM_CHAT_ID=-1234567890
 
 ## Methods
 #### The package provides the following methods to send log messages to the telegram bot
-- `Laralog::debug(string|array|object $message)`
-- `Laralog::info(string|array|object $message)`
-- `Laralog::warning(string|array|object $message)`
-- `Laralog::error(string|array|object $message)`
+- `Laralog::debug(int|string|array|object $message)`
+- `Laralog::info(int|string|array|object $message)`
+- `Laralog::warning(int|string|array|object $message)`
+- `Laralog::error(int|string|array|object $message)`
 
 ## Usage
 #### Send a log message to the telegram bot

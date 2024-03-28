@@ -8,14 +8,14 @@ use Milly\Laragram\Laragram;
 /**
  * Class Laralog
  * @package Mirmuxsin\Laralog
- * @method static void debug(string|array|object $message, $auto_discover = true)
- * @method static void info(string|array|object $message, $auto_discover = true)
- * @method static void warning(string|array|object $message, $auto_discover = true)
- * @method static void error(string|array|object $message, $auto_discover = true)
- * @method void debug(string|array|object $message, $auto_discover = true)
- * @method void info(string|array|object $message, $auto_discover = true)
- * @method void warning(string|array|object $message, $auto_discover = true)
- * @method void error(string|array|object $message, $auto_discover = true)
+ * @method static void debug(int|string|array|object $message, $auto_discover = true)
+ * @method static void info(int|string|array|object $message, $auto_discover = true)
+ * @method static void warning(int|string|array|object $message, $auto_discover = true)
+ * @method static void error(int|string|array|object $message, $auto_discover = true)
+ * @method void debug(int|string|array|object $message, $auto_discover = true)
+ * @method void info(int|string|array|object $message, $auto_discover = true)
+ * @method void warning(int|string|array|object $message, $auto_discover = true)
+ * @method void error(int|string|array|object $message, $auto_discover = true)
  */
 class Laralog
 {
@@ -53,7 +53,7 @@ class Laralog
         }
     }
 
-    private function sendLog($type, string|array|object $message, $auto_discover = true): void
+    private function sendLog($type, int|string|array|object $message, $auto_discover = true): void
     {
         $is_enabled = config('laralog.is_enabled');
         if ($is_enabled != 'local' or $is_enabled !== true) {
