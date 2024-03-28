@@ -89,7 +89,6 @@ class Laralog
                     'chat_id' => config('laralog.chat_id'),
                     'text' => $text,
                     'parse_mode' => 'HTML'
-
                 ]);
             } elseif (InstalledVersions::getVersion('milly/laragram') >= '3.0.0') {
                 Laragram::sendMessage(chat_id: config('laralog.chat_id'), text: $message, parse_mode: 'HTML');
