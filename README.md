@@ -1,6 +1,6 @@
 <h1 align='center'><samp>LARALOG</samp></h1>
 <h3 align='center'>
-    <sup align='center'>PHP Package to debug and handle logs via telegram bot</sup>
+    <sup align='center'>PHP Laravel package to debug and handle logs via telegram bot</sup>
 
 [//]: # (    <h6 align="center"><a href="">Check it out how easily you can send me a message</a></h6>)
 </h3>
