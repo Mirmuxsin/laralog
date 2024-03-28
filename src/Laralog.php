@@ -9,6 +9,13 @@ use Milly\Laragram\Laragram;
  * Class Laralog
  * @package Mirmuxsin\Laralog
  * @method static void debug(string|array|object $message, $auto_discover = true)
+ * @method static void info(string|array|object $message, $auto_discover = true)
+ * @method static void warning(string|array|object $message, $auto_discover = true)
+ * @method static void error(string|array|object $message, $auto_discover = true)
+ * @method void debug(string|array|object $message, $auto_discover = true)
+ * @method void info(string|array|object $message, $auto_discover = true)
+ * @method void warning(string|array|object $message, $auto_discover = true)
+ * @method void error(string|array|object $message, $auto_discover = true)
  */
 class Laralog
 {
