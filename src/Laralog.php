@@ -56,7 +56,7 @@ class Laralog
     private function sendLog($type, int|string|array|object $message, $auto_discover = true): void
     {
         $is_enabled = config('laralog.is_enabled');
-        if ($is_enabled != 'local' or $is_enabled !== true) {
+        if ((is_string($is_enabled) and $is_enabled != 'local') or (is_bool($is_enabled) and $is_enabled !== true)) {
             return;
         }
 
