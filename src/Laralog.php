@@ -60,12 +60,12 @@ class Laralog
             return;
         }
 
-        if ($auto_discover) {
-            $message = htmlspecialchars($message);
-        }
-
         if (is_array($message) || is_object($message)) {
             $message = json_encode($message, JSON_PRETTY_PRINT);
+        }
+
+        if ($auto_discover) {
+            $message = htmlspecialchars($message);
         }
 
         $messages = str_split($message, 4000);
